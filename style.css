@@ -1,0 +1,39 @@
+#ctrns {
+  border-style: inset;
+  border-radius: 20px;
+  border-color: red;
+}
+
+#ptrns {
+  border-style: inset;
+  border-radius: 20px;
+  border-color: red;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+button {
+  font-variant: small-caps;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+
+#notes {
+  margin: 30px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: black;
+  border-radius: 20px;
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.bbb {
+  border-width: 3px;
+  border-style: inset;
+  border-color: lightgrey;
+  border-radius: 10px;
+}
