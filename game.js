@@ -126,7 +126,7 @@ function bandaid() {
       upDate();
       break;
     case false:
-      alert("Bandaid can only be used once, and your health must be less than 75!")
+      alert("Bandaid can only be used once!")
       break;
   }
 }
