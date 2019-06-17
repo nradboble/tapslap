@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body onload="namePrompt()">
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <h6 id="cturns">Computer: </h6>
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <div class="col-4 offset-4 text-center">
+            <h1>Tap Slap</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-right">
+            <h4>Computer:</h4>
+            <div class="progress">
+              <div id="chealthbar" class="progress-bar" style="width:100%">Health</div>
+            </div>
+            <h3>Hits:<span id="chits">--</span></h3>
+            <h3>Health:<span id="chealth">--</span></h3>
+          </div>
+          <div class="col-4 text-center">
+            <button type="button" onClick="reset()">
+              <h6>Reset</h6>
+            </button>
+            </br>
+            <img id="imge" src="main.png" alt="blank" style="width:200px;height:200px">
+          </div>
+          <div class="col-4">
+            <h4><span id="name">--</span></h4>
+            <div class="progress">
+              <div id="healthbar" class="progress-bar" style="width:100%">Health</div>
+            </div>
+            <h3>Hits:<span id="hits">--</span></h3>
+            <h3>Health:<span id="health">--</span></h3>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-4 text-right">
+            <button id="slap" type="button" onclick="pslap()">
+              <h1>Slap!</h1>
+            </button>
+            </br>
+            <h4>Sword</h4>
+            <button type="button" onclick="sword()">
+              <h3>Use</h3>
+            </button>
+            <h6>Must have 10 hits or more to use
+              </br> Can only be used once.</h6>
+          </div>
+          <div class="col-4 text-center">
+            <button type="button" onclick="ppunch()">
+              <h1>Punch!</h1>
+            </button>
+            </br>
+            <h4>Flaming Sword</h4>
+            <button type="button" onclick="fsword()">
+              <h3>Use</h3>
+            </button>
+            <h6>Must have 20 hits or more to use.
+              </br> Can only be used once.
+            </h6>
+          </div>
+          <div class="col-4 text-left">
+            <button type="button" onclick="pkick()">
+              <h1>kick!</h1>
+            </button>
+            </br>
+            <h4>Bandaid</h4>
+            <button type="button" onclick="bandaid()">
+              <h3>Use</h3>
+            </button>
+            <h6>Adds 25 health.
+              </br>Can only be used once.</h6>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-1">
+        <h6 id="pturns"></h6>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="game.js"></script>
+</body>
+
+</html>
